@@ -3,6 +3,7 @@ body{
     font-family: Arial, Verdana, sans-serif;
 }
 main{
+    box-sizing: border-box;
     width: 90%;
     max-width: 900px;
     margin: auto;
@@ -11,9 +12,13 @@ h1{
     padding-top: 100px;
     color: white;
 }
+nav{
+    height: 150px;
+}
 ul {
     list-style-type: none;
     margin: 0;
+    border-radius: 8px;
     padding: 0;
     overflow: hidden;
     background-color: #0088CC;
@@ -31,11 +36,14 @@ ul {
     text-decoration: none;
   }
   
-  /* Change the link color to #111 (black) on hover */
+ 
   li a:hover {
     background-color:hsl(32, 100%, 50%);
+    
   }
   section{
+    box-sizing: border-box;
+    border-radius: 8px;
     margin-top: 10px;
     font-size: 10pt;
     background-color: #00BFFF;
@@ -44,8 +52,9 @@ ul {
   }
  
   aside{
+    box-sizing: border-box;
     border: #0088CC solid 2px;
-    
+    border-radius: 8px;
     margin-top: 10px;
     margin-right: 80px;
    
@@ -56,16 +65,39 @@ ul {
     grid-template-columns: 1fr 2fr;
   }
 header{
+    box-sizing: border-box;
     height: 300px;
     text-align: center;
     background-color: #00BFFF;
     border: #0088CC solid 2px;
-    margin: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
   }
   footer{
+    box-sizing: border-box;
     margin-top: 10px;
     border: #0088CC solid 2px;
     height: 70px;
     text-align: center;
     background-color: #00BFFF;
+    border-radius: 8px;
   }
+
+.kepek{
+    box-sizing: border-box;
+    margin: auto;
+}
+article img{
+    box-sizing: border-box;
+    
+    margin-right: 60px;
+    border: #0088CC solid 2px;
+    border-radius: 8px;
+}
+@media only screen and (max-width: 700px){
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+}
