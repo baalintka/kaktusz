@@ -34,7 +34,9 @@ ul {
     text-decoration: none;
   }
   
- 
+ ol{
+  list-style-type: square;
+ }
   li a:hover {
     background-color:hsl(32, 100%, 50%);
     
@@ -61,6 +63,9 @@ ul {
     text-align: justify;
     display: grid;
     grid-template-columns: 1fr 2fr;
+  }
+  article{
+    text-align: justify;
   }
 header{
     box-sizing: border-box;
