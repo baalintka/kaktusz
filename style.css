@@ -109,5 +109,9 @@ article img{
     display: grid;
     grid-template-columns: 1fr;
 }
+nav ul{
+  display: grid;
+  grid-template-columns: 1fr;
+}
 
 }
