@@ -84,7 +84,13 @@ header{
 
 .kepek{
     box-sizing: border-box;
-    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+.kepek img{
+  margin: auto;
+  margin-right: 65px;
+  
 }
 article img{
     box-sizing: border-box;
